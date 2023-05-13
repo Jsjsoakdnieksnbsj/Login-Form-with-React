@@ -1,0 +1,85 @@
+.header{
+  text-align: center;
+  font-size: 50px;
+}
+
+.E-Mail{
+  text-align: center;
+  font-size: 50px;
+}
+
+.Password{
+  text-align: center;
+  font-size: 50px;
+  padding: 8px;
+}
+
+.Email-input{
+  border-radius: 35px;
+  padding: 18px;
+  size: 180px;
+  width: 600px;
+  font-size: 34px;
+}
+
+.Email-text{
+  margin-top: -4px;
+}
+
+.password-input{
+  border-radius: 35px;
+  padding: 18px;
+  size: 180px;
+  width: 600px;
+  font-size: 34px;
+}
+
+.Submit-button{
+  border-radius: 15px;
+  padding: 18px;
+  text-align: center;
+  margin-left: 840px;
+  width: 150px;
+  transition: 1s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.Submit-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.Reset-button{
+  border-radius: 15px;
+  padding: 18px;
+  text-align: center;
+  margin-left: 840px;
+  width: 150px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.Reset-button:hover{
+  background-color: black;
+  color: white;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  animation: slide-in 1s ease-in-out infinite alternate;
+}
+
+.request{
+  text-align: center;
+  font-size: 30px;
+}
+
